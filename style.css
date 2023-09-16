@@ -1,0 +1,257 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    width: auto;
+    height: 95vh;
+}
+
+html{
+    font-size: 13px;
+}
+
+.main-container{
+    width: auto;
+    height: 50rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-wrapper{
+    background: linear-gradient(
+        to bottom,    
+        hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    width: 21%;
+    height: 60%;
+    border-radius: 2rem;
+    position: relative;
+    padding: 1%;
+    z-index: 1;
+    box-shadow: 0px .5rem .5rem hsl(221, 100%, 96%);
+}
+
+.right-wrapper{
+    background-color: hsl(0, 0%, 100%);
+    width: 22%;
+    height: 60%;
+    position: relative;
+    right: 3rem;
+    border-radius: 2.5rem;
+    padding: 1%;
+    box-shadow: 0 .5rem 2rem hsl(221, 100%, 96%);
+
+
+}
+
+.text-wrapper-right{
+    width: auto;
+    height: 100%;
+    margin-left: 17%;
+}
+
+.text-wrapper-left{
+    text-align: center;
+    color: #fff;
+    line-height: 1rem;
+}
+
+.result-heading{
+    color: hsl(241, 100%, 89%);
+    font-size: 1.7rem;
+    font-weight: 500;
+    padding-bottom: 1%;
+    margin-top: 8%;
+}
+
+.result-wrapper{
+    background: linear-gradient(to bottom,    
+    hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+    border-radius: 50%;
+    height: 12rem;
+    width: 12rem;
+    padding: 1%;
+    position: absolute;
+    z-index: -1;
+    display: flex;
+}
+    
+.result{
+    font-size: 5.5rem;
+    line-height: 2.2rem;
+}
+
+.result span{
+    color: hsl(241, 100%, 89%);
+    font-size: 1.3rem;
+}
+
+.comment-header{
+    font-size: 2rem;
+    font-weight: 400;
+    line-height: .5rem;
+}
+
+.comment{
+    line-height: 1.8rem;
+    font-size: 1.3rem;
+    color: hsl(241, 100%, 89%);
+    margin: 0 15%;
+}
+
+.summary-heading{
+    color: #000;
+    font-size: 1.7rem;
+    font-weight: 600;
+    margin-top: 2%;
+}
+
+.assessment-btn{
+    padding: 5% 5%;
+    width: 85%;
+    height: auto;
+    border-radius: 1rem;
+    font-size: 1.5rem;
+    margin-top: 0;
+}
+
+.assessment-btn span{
+    float: right;
+    color: #000;
+}
+
+.assessment-btn img{
+    width: 7%;
+    height: auto;
+    margin-right: 1%;
+}
+
+
+.reaction{
+    background-color: hsl(0, 100%, 98%);
+    color:hsl(0, 100%, 67%);
+}
+
+.memory{
+    background-color: hsl(45, 100%, 97%);
+    color:hsl(39, 100%, 56%);
+}
+
+.verbal{
+    background-color: hsl(164, 100%, 98%);
+    color:hsl(166, 100%, 37%);
+}
+
+.visual{
+    background-color: hsl(236, 100%, 97%);
+    color:hsl(234, 85%, 45%);
+}
+
+button{
+    border-radius: 2.5rem;
+    background: hsl(224, 30%, 27%);
+    border-style: none;    
+    color: #fff;
+    font-size: 1.2rem;
+    padding: 5% 0;
+    margin-top: 1%;
+    width: 95%;
+    height: auto;
+}
+
+button:hover{
+    border-radius: 2.5rem;
+    background: linear-gradient(
+        to bottom,    
+        hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    border-style: none;
+    color: #fff;
+    font-size: 1.2rem;
+    padding: 5% 0;
+    margin-top: 1%;
+    width: 95%;
+    height: auto;
+}
+
+
+.attribution { 
+    font-size: 1.1rem; 
+    text-align: center; 
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%);
+ }
+
+ @media (max-width: 1200px){
+    html{
+        font-size: 10px;
+    }
+
+    .main-container{
+        width: auto;
+        height: 50rem;
+
+    }
+
+}
+
+ @media (max-width: 980px){
+    html{
+        font-size: 10px;
+    }
+
+    .main-container{
+        display: block;
+    }
+
+    .left-wrapper{
+        width: auto;
+        height: 60%;
+        border-radius: 0 0 2rem 2rem;
+        padding: 1%;
+        z-index: 1;
+        box-shadow: none;
+        position: relative;
+        left: 0rem;
+    }
+    
+    .right-wrapper{
+        width: auto;
+        height: 60%;
+        right: 3rem;
+        border-radius: 0;
+        padding: 1%;
+        box-shadow: none;
+    }
+    
+    .result-heading{
+        padding-bottom: 1%;
+    }
+    
+    .attribution { 
+        font-size: 1rem; 
+        text-align: center; 
+        position: relative;
+        top: 18rem;
+    } 
+ }
+
+ @media (max-width: 380px){
+    html{
+        font-size: 8px;
+    }
+
+    .text-wrapper-left{
+        text-align: center;
+        color: #fff;
+        line-height: 1rem;
+    }
+ }
+ 
+
+ @media (max-width: 350px){
+    html{
+        font-size: 8px;
+    }
+ }
+ 
