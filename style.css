@@ -2,11 +2,15 @@
     box-sizing: border-box;
 }
 
+html{
+    font-size: 12px;
+    scroll-behavior: smooth;
+}
+
 @font-face {
     font-family: customFonts;
     src: url(HankenGrotesk-VariableFont_wght.ttf);
 }
-
 
 body{
     margin: 0;
@@ -20,11 +24,6 @@ body{
     justify-content: center;
 }
     
-html{
-    font-size: 12px;
-    scroll-behavior: smooth;
-}
-
 .main-container{
     width: auto;
 }
@@ -190,7 +189,6 @@ button:hover{
     height: auto;
     cursor: pointer;
 }
-
 
 .attribution { 
     font-size: 1.1rem; 
